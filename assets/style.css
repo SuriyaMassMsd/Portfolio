@@ -1,0 +1,293 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=League+Spartan:wght@100;200;300;400;700;800&family=Lugrasimo&family=Oswald&family=Pacifico&family=Poppins:wght@600;700;900&display=swap');
+
+
+:root{
+    --primary: #000;
+    --primary-hover:rgb(255, 145, 0);
+    --primary-font: 'Lato', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--primary-font);
+}
+
+
+
+
+body{
+
+    background-color: var(--primary);
+    
+}
+
+/* header */
+
+header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--primary);
+}
+
+/* logo */
+
+.logo{
+    left: 10px;
+    display: flex;
+    
+}
+
+.logo img{
+    position: relative;
+    display: flex;
+    margin-left: -100px;
+    width: 50px;
+    height: 50px;
+    transition: 0.3 ease-in-out ;
+    cursor: pointer;
+}
+
+.logo img:hover{
+    transform: scale(1.1);
+    color: var(--primary-hover);
+}
+
+/* name */
+
+.head_name h1{
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    margin-left: -200px;
+    margin-top: 5px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.5px;
+    transition: 0.3 ease-in-out ;
+}
+
+.head_name h1:hover{
+    transform: scale(1.1);
+    color: var(--primary-hover);
+}
+
+ .head_name h1 a{
+    list-style: none;
+} 
+
+
+/* nav items */
+.nav_menu{
+    position: relative;
+
+}
+
+.list{
+    display: flex;
+    list-style: none;
+}
+
+.list li{
+   margin-left: 60px;
+   transition: 0.3 ease-in-out ;
+} 
+
+.list li:hover{
+    transform: scale(1.1);
+}
+
+.list li a{
+    color: #e9e5dd;
+    text-decoration: none;
+    
+} 
+
+.list li a:hover{
+    color: var(--primary-hover) ;
+}
+
+
+/* button */
+
+
+.btn_download{
+    display: flex;
+    
+}
+
+.btn_download button{
+    padding: 10px 15px;
+    cursor: pointer;
+    border: 2px solid var(--primary-hover);
+   border-radius: 2px;
+    background-color: var(--primary-hover);
+    color: white;
+    transition: 0.3 ease-in-out ;
+}
+
+.btn_download button:hover{
+   background-color: var(--primary);
+   color: var(--primary-hover);
+   transform: scale(1.1);
+}
+
+
+/* main */
+
+.main_items{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-top: 120px;
+    margin-left: 60px;
+    padding: 20px 130px 0 230px;
+}
+
+.main_items h4{
+    font-size: 15px ;
+    color: var(--primary-hover);
+}
+
+.main_items h4 span{
+    color: white;
+}
+.main_items h1{
+    display: inline-block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 58px;
+   font-weight: 800;
+    color: var(--primary-hover);
+    cursor: pointer;
+}
+
+.main_items p{
+    word-spacing: 2px;
+    line-height: 1.3em;
+    font-weight: 100;
+    font-size: 12px;
+   display: block;
+    text-align: justify;
+}
+
+
+/* social icons */
+
+.social_icons{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    font-size: 25px;
+
+}
+
+.social_icons li{
+    margin-top: 20px;
+    margin-right: 20px;
+    
+}
+
+.icons1{
+    color: white;
+    transition: 0.3 ease-in-out ;
+    
+}
+
+.icons1:hover{
+    color: blue;
+    transform: scale(1.5);
+}
+
+.icons2{
+    color: white;
+    transition: 0.3 ease-in-out ;
+    
+}
+
+.icons2:hover{
+    color: rgb(255, 0, 76);
+    transform: scale(1.5);
+}
+
+.icons3{
+    color: white;
+    transition: 0.3 ease-in-out ;
+    
+}
+
+.icons3:hover{
+    color: rgb(0, 225, 255);
+    transform: scale(1.5);
+}
+
+.icons4{
+    color: white;
+    transition: 0.3 ease-in-out ;
+    
+}
+
+.icons4:hover{
+    color: rgb(51, 255, 0);
+    transform: scale(1.5);
+}
+
+
+/* hire button */
+
+.hire_me{
+     padding: 10px 15px;
+     margin-top: 35px;
+    cursor: pointer;
+    border: 2px solid var(--primary-hover);
+   border-radius: 2px;
+    background-color: var(--primary-hover);
+    color: rgb(0, 0, 0);
+    transition: 0.1 ease-in-out ;
+}
+
+.hire_me:hover{
+    background-color: var(--primary);
+    color: white;
+    transform: scale(1.1);
+}
+
+.hire{
+    margin-right: 5px;
+}
+
+.btn_mail{
+    position: absolute;
+    padding: 10px 15px;
+    margin-top: -40px;
+    margin-left: 120px;
+   cursor: pointer;
+   border: 2px solid var(--primary-hover);
+  border-radius: 2px;
+   background-color: var(--primary);
+   color: white;
+   transition: 0.3 ease-in-out ;
+}
+
+.btn_mail:hover{
+    background-color: var(--primary-hover);
+    color: black;
+    transform: scale(1.1);
+}
+
+.maill{
+    margin-right: 5px;
+}
+
+/* image */
+
+.img{
+    margin-left: 500px;
+    margin-top: -425px;
+    width: 570px;
+    height: 600px;
+}
