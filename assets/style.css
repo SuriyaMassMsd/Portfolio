@@ -166,6 +166,9 @@ header{
     cursor: pointer;
 }
 
+.main_items h1:hover{
+    color: white;
+}
 .main_items p{
     word-spacing: 2px;
     line-height: 1.3em;
