@@ -16,11 +16,15 @@
 }
 
 
+html{
+     scroll-behavior: smooth;
+}
 
 
 body{
 
     background-color: var(--primary);
+    scroll-behavior: smooth;
     
 }
 
@@ -63,7 +67,7 @@ header{
     position: relative;
     display: inline-block;
     justify-content: center;
-    margin-left: -200px;
+    margin-left: 0px;
     margin-top: 5px;
     cursor: pointer;
     color: rgb(255, 255, 255);
@@ -90,6 +94,7 @@ header{
 .list{
     display: flex;
     list-style: none;
+    /* font-family: var(--primary-font); */
 }
 
 .list li{
@@ -146,6 +151,7 @@ header{
     margin-top: 120px;
     margin-left: 60px;
     padding: 20px 130px 0 230px;
+    margin-bottom: 100px;
 }
 
 .main_items h4{
@@ -172,7 +178,7 @@ header{
 .main_items p{
     word-spacing: 2px;
     line-height: 1.3em;
-    font-weight: 100;
+    /* font-weight: 100; */
     font-size: 12px;
    display: block;
     text-align: justify;
@@ -291,6 +297,253 @@ header{
 .img{
     margin-left: 500px;
     margin-top: -425px;
-    width: 570px;
-    height: 600px;
+    width: 370px;
+    height: 400px;
+}
+
+
+
+/* About MySelf */
+
+.about_myelf{
+background-color: #0f0f0f;
+   padding: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.about_myelf img{
+    width: 360px;
+    border-radius: 60%;
+    border: 2px solid var(--primary-hover);
+   box-shadow: 3px 5px 25px var(--primary-hover);
+   margin-left: -100px;
+   margin-top: 30px;
+}
+
+.about_section_dec{
+
+    color: white;
+    margin-left: 150px;
+    max-width: 450px;
+}
+
+
+.about_title{
+    font-weight: 800;
+    font-size: 38px;
+   /* margin-top: px; */
+   margin-bottom: 20px;
+   cursor: pointer;
+}
+
+
+.about_title:hover{
+    color: var(--primary-hover);
+}
+
+.about_title strong{
+    color: var(--primary-hover);
+    margin-right: 8px;
+    
+}
+
+
+.about_section_dec ul{
+    list-style: none;
+}
+
+.about_section_dec ul li h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+
+.about_section_dec ul li h4 span {
+    color: gray;
+    margin-left: 5px;
+}
+
+.about_section_dec ul li h4 a{
+  text-decoration: none;
+  color: gray;
+}
+
+
+.about_section_dec ul li h4 a:hover{
+    color: var(--primary-hover);
+}
+
+.btn_about button{
+    padding: 10px 15px;
+    cursor: pointer;
+    border: 2px solid var(--primary-hover);
+   border-radius: 2px;
+    background-color: var(--primary-hover);
+    color: white;
+    transition: 0.3 ease-in-out ;
+    margin-top: 5px;
+}
+
+.btn_about button:hover{
+   background-color: var(--primary);
+   color: var(--primary-hover);
+   transform: scale(1.1);
+}
+
+
+/* work */
+
+.My_creative_section {
+    background-color: var(--primary);
+   padding: 60px;
+  
+}
+
+.box_align{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.work_title {
+    font-weight: 800;
+    font-size: 38px;
+    color: white;
+   /* margin-top: px; */
+   cursor: pointer;
+   text-align: center;
+   margin-bottom: 60px;
+}
+
+.work_title span{
+    color: var(--primary-hover);
+}
+
+.work_title:hover{
+    color: var(--primary-hover);
+}
+
+.My_creative_content_box{
+    background-color: #0f0f0f;
+    padding: 25px;
+    max-width: 300px;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+   margin-right: 20px;
+}
+
+.My_creative_content_box:hover{
+    background-color: #7c7c7c59;
+}
+
+.My_creative_content_box h4 {
+    color: white;
+    font-size: 16px;
+}
+
+.My_creative_content_box h4:hover{
+    color: var(--primary-hover);
+}
+
+.work_icons i{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: var(--primary-hover);
+}
+
+.work_icons i:hover{
+    color: white;
+}
+
+.work_dec p{
+    margin-top: 10px;
+    font-size: 13px;
+    color: gray;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.My_creative_section a{
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    font-size: 12px;   
+
+}
+
+.My_creative_section a:hover{
+    color: var(--primary-hover);
+}
+
+.contact_section{
+    background-color: #0f0f0f;
+    padding: 60px;
+    color: white;
+   text-align: center;
+  
+}
+
+.contact_section h4{
+    font-weight: 800;
+    font-size: 38px;
+    color: white;
+   cursor: pointer;
+   text-align: center;
+   margin-bottom: 60px;
+}
+
+
+.contact_section h4:hover{
+    color: var(--primary-hover);
+}
+.contact_section h4 span{
+    color: var(--primary-hover);
+}
+
+
+form input, textarea {
+    width: 350px;
+    padding: 10px;
+    margin-bottom: 20px;
+    outline: none;
+    border: 2px solid var(--primary-hover);
+}
+
+
+.btn_send button{
+    padding: 10px 15px;
+    cursor: pointer;
+    border: 2px solid var(--primary-hover);
+   border-radius: 2px;
+    background-color: var(--primary-hover);
+    color: white;
+    margin-top: 5px;
+    width: 350px;
+}
+
+.btn_send button:hover{
+   background-color: var(--primary);
+   color: var(--primary-hover);
+  
+}
+
+footer {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--primary-hover);
+    margin-left: 5px;
+}
+
+footer a:hover{
+    color: aqua;
 }
