@@ -561,6 +561,10 @@ footer a:hover{
         margin-bottom: 20px;
 
     }
+
+    .list{
+        margin-left: -60px;
+    }
     section.main_items{
         flex-direction: column;
         margin-left: -100px;
@@ -573,13 +577,51 @@ footer a:hover{
     section.about_myelf{
         background: #0f0f0f;
         flex-direction: column;
-         margin-right: -50px;
-
-         /* width: 100%; */
+         /* margin-right: -50px; */
          
     }
 
     section.about_myelf img{
         margin-left: 0%;
+    }
+
+    section.about_section_dec{
+        flex-direction: column;
+    }
+    .about_title{
+        flex-direction: column;
+        margin-top: 40px;
+        margin-left: -150px;
+        margin-bottom: 30px;
+    }
+
+    .res{
+
+        flex-direction: column;
+        margin-left: -150px;
+    }
+
+    .btn_about{
+        margin-left: -150px;
+    }
+
+    section.My_creative_section{
+        flex-direction: column;
+    }
+
+    .box_align{
+        flex-direction: column;
+    }
+
+    .My_creative_content_box{
+        margin-bottom: 30px;
+    }
+
+    .contact_section{
+        flex-direction: column;
+    }
+
+    .contact_section input , textarea {
+        width: 100%;
     }
 }
