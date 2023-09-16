@@ -3,8 +3,8 @@
 
 
 :root{
-    --primary: #000;
-    --primary-hover:rgb(255, 145, 0);
+    --primary: #ff0040;
+    --primary-hover:rgb(255, 217, 0);
     --primary-font: 'Lato', sans-serif;
 }
 
