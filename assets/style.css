@@ -521,7 +521,7 @@ form input, textarea {
     background-color: var(--primary-hover);
     color: white;
     margin-top: 5px;
-    width: 350px;
+    /* width: 350px; */
 }
 
 .btn_send button:hover{
@@ -546,4 +546,40 @@ footer a{
 
 footer a:hover{
     color: aqua;
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 600px) {
+    header{
+        flex-direction: column;
+        /* margin-left: ; */
+    }
+
+    header >*{
+        margin-bottom: 20px;
+
+    }
+    section.main_items{
+        flex-direction: column;
+        margin-left: -100px;
+
+    }
+    section.main_items img{
+        display: none;
+    }
+
+    section.about_myelf{
+        background: #0f0f0f;
+        flex-direction: column;
+         margin-right: -50px;
+
+         /* width: 100%; */
+         
+    }
+
+    section.about_myelf img{
+        margin-left: 0%;
+    }
 }
